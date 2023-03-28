@@ -1,0 +1,22 @@
+.cart {
+  height: 100%;
+  position: relative;
+}
+.cart-info {
+  background-color: black;
+  border-radius: 0 0 6px 6px;
+  padding-top: 30px;
+}
+.btn-cart {
+  background-color: white;
+  color: palevioletred;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+@media (max-width: 600px) {
+  .cart {
+    height: 10%;
+    margin-bottom: 70px;
+  }
+}

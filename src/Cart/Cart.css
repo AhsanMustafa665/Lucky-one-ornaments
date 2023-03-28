@@ -1,0 +1,22 @@
+.selected-item {
+  display: flex;
+  padding: 20px 20px 0 20px;
+  align-items: center;
+}
+.selected-item > img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 2px solid palevioletred;
+  margin-right: 20px;
+}
+.selected-item > h6 {
+  font-weight: 700;
+}
+.delete-btn {
+  border: none;
+  background-color: #dadada;
+  margin-left: 30px;
+  margin-top: -10px;
+  color: gray;
+}
