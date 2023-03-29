@@ -14,9 +14,3 @@
   bottom: 0;
   margin-bottom: 10px;
 }
-@media (max-width: 600px) {
-  .cart {
-    height: 10%;
-    margin-bottom: 70px;
-  }
-}

@@ -24,6 +24,9 @@ const Shop = () => {
         text: "Same ornament not added!",
       });
     } else {
+      // if (carts.length >= 0) {
+      //   document.getElementById("df").disabled = false;
+      // }
       const newCart = [...carts, product];
       setCarts(newCart);
     }
@@ -67,7 +70,12 @@ const Shop = () => {
             ></Cart>
           ))}
           <div className="choose-btn">
-            <button onClick={chooseProduct} style={{ marginBottom: "10px" }}>
+            <button
+              id="df"
+              onClick={chooseProduct}
+              style={{ marginBottom: "10px" }}
+              disabled={carts.length > 0 ? false : true}
+            >
               Choose one for me
             </button>
             <br />
@@ -76,6 +84,7 @@ const Shop = () => {
                 setCarts([]);
                 setSelected({});
               }}
+              disabled={carts.length > 0 ? false : true}
             >
               Choose again
             </button>

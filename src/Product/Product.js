@@ -7,7 +7,7 @@ import "./Product.css";
 const Product = (pd) => {
   const { handleAddToCart } = pd;
   const { img, name, price } = pd.pd;
-  console.log(pd.pd);
+  // console.log(pd.pd);
   return (
     <div
       className="cart"
