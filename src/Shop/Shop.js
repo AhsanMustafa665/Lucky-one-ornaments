@@ -80,6 +80,7 @@ const Shop = () => {
             </button>
             <br />
             <button
+              className="not-allowed"
               onClick={() => {
                 setCarts([]);
                 setSelected({});

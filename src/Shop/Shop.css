@@ -45,9 +45,14 @@
   border: 1px solid gray;
   margin: 20px;
   padding: 10px;
+  border: 1px solid palevioletred;
   border-radius: 10px;
 }
 
+.not-allowed {
+  /* pointer-events: auto !important; */
+  cursor: not-allowed !important;
+}
 @media (max-width: 600px) {
   .pd-container {
     display: block;

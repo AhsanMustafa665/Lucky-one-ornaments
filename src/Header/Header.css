@@ -1,0 +1,43 @@
+/* regular device */
+@media only screen and (max-width: 1366px) {
+  .header {
+    height: 80px;
+    color: #ffffff;
+    background-color: #1c2b35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 100px;
+  }
+  .header a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 800;
+
+    color: palevioletred;
+  }
+  .header a:hover {
+    color: orange;
+  }
+}
+/* Mobile device */
+@media only screen and (max-width: 600px) {
+  .header a img {
+    width: 100px;
+  }
+  .header {
+    padding: 0;
+    display: block;
+    height: 110px;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .header a {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
